@@ -9,13 +9,19 @@
     </head>
 
     <body>
-        <h1>BlackJack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="card-el" >Cards:</p>
-        <p id="sum-el">Sum:</p>
-        <button id="start-btn" onclick="startGame()">START GAME</button>
-        <button id="btn" onclick="newCard()">NEW CARD</button>
-        <p id="player-el"></p>
+        <div class="main-container">
+            <h1>BlackJack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <div class="container">
+                <p id="card-el" >Cards:</p>
+                <p id="sum-el">Sum:</p>
+                <div class="btn-container">
+                    <button id="start-btn" onclick="startGame()">START GAME</button>
+                    <button id="btn" onclick="newCard()">NEW CARD</button>
+                </div>
+                <p id="player-el"></p>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 
